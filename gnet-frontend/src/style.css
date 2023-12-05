@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(174, 214, 241);
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 173, 226);
+
+}    
+.navbar {
+    padding: 10px;
+}
+#navbar-a{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.navbar-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+.navbar-link:hover{
+    color: blue;
+}
+.navbar-btn {
+    margin-right: 10px;
+}
+#table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+th{
+    background-color: rgb(93, 173, 226);
+    color: whitesmoke;
+    height: 30px;
+}
+
+td{
+    border: 2px solid rgb(93, 173, 226);
+}
+#form{
+    overflow: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 310px;
+    background-color:rgb(93, 173, 226) ;
+    border-radius: 15px;
+}
+#netform{
+    overflow: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 470px;
+    background-color:rgb(93, 173, 226) ;
+    border-radius: 15px;
+}
+.form-div{
+    margin-left: 20px;
+}
+.form-div-1{
+    margin-top: 20px;
+}
+.form-lable{
+    color: whitesmoke;
+}
+#userId, #username, #location, #phone, .form-btn, #mbps, #expire, #renew, #amount, #month, #balanceMonth, #balanceAmount{
+    width: 92%;
+}
+
+#form-btn{
+    height: 30px;
+}
+.network-btn{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(93, 173, 226); 
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.network-add-link{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.network-add-link:hover{
+    color: blue;
+}
+.network{
+    text-align: center;
+}
+.action{
+    display: flex;
+}
+.action-btn{
+    width: 100%;
+}
+.delete-btn:hover{
+    color: red
+}
+.info-btn:hover{
+    color: purple
+}
+.update-btn:hover{
+    color: green
+}
